@@ -27,6 +27,7 @@ public class Ejemplo4 {
         //F           or          //F         >>>>> F
         if (ciudad.equals("Loja") || ciudad.equals("Machala") || 
                 ciudad.equals("Guayaquil")) {
+            // el equals lo utilizamos para hacer cadenas o compararlas
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
