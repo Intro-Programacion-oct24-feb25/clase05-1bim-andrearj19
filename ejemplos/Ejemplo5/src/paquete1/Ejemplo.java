@@ -29,6 +29,9 @@ public class Ejemplo {
         numeroIngresado = entrada.nextInt();
 
         if (numeroIngresado % 2 == 0) {
+            //% representa el MOD ejemplo: 10/5:2 o 10 mod 5: 0 es el que me
+            //da el residuo.
+            
             System.out.printf("Resultado %s\n", mensajeUno);
         } else {
             System.out.printf("Resultado %s\n", mensajeDos);
